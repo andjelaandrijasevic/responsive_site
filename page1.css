@@ -1,0 +1,535 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+    
+}
+#div_opacity
+{
+    opacity: 0.9;
+}
+#showcase .bg-image
+{
+    background: #333 url(./headerphoto.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    
+}
+#transparentback
+{
+    background-color: rgba(61, 61, 61, 0.5);
+    width: 100%;
+    height: 450px;
+}
+#showcase
+{
+    min-height: 450px;
+    text-align: center;
+  
+}
+#showcase h1
+{
+    
+    padding-top: 105px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 2em;
+}
+.webapp
+{
+    padding-top: 20px;
+    
+}
+header p
+{
+    
+    padding-bottom: 15px;
+    max-width: 850px;
+    margin: auto;
+    margin-bottom: 13px;
+}
+.webapp h2
+{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#webapp_paragraf
+{
+    text-align: center;
+}
+.webapp #leftcol
+{
+    max-width: 450px;
+    text-align: center;
+    padding-left: 25px;
+}
+.webapp #rightcol
+{
+    max-width: 450px ;
+    padding-right: 33px;
+   text-align: center;
+}
+.webapp .row
+{
+    padding-top: 22px;
+    padding-bottom: 25px;
+    max-width: 900px;  
+    margin: auto;
+    padding-left: 5px;
+    
+}
+.cards
+{
+    margin-top: 29px;
+    padding-top: 36px;
+    padding-bottom: 30px;
+    text-align: center;
+    position: center;
+    height:571px;
+    
+    background-color: #333;
+
+   
+    
+}
+.cards .row
+{
+    /* max-width: 900px; */
+
+    margin: auto;
+    margin-left: -20px;
+}
+
+.card
+{
+    padding: 0;
+    
+    width: 273px;
+    height: 500px;
+    border: none;
+    border-radius: 0;
+    
+}
+.cards #card2
+{
+    padding-left: -2px;
+    padding-top: 33px;
+}
+
+.cards h3
+{
+    
+    font-weight: bold;
+  
+    padding-right: -4px;
+
+    font-size: 20.6px;
+    font-weight: bold;
+    padding-top: 32px;
+    
+}
+
+.cards p
+{
+    /* padding-top: 33px; */
+    /* padding-right: 17px; */
+    font-size: 17.6px;
+    padding: 17.6px 0;
+    
+    padding-top: 33.8px;
+    padding-left: 13.5px;
+    padding-right: 13px;
+}
+.handleofneeds
+{
+    margin-top: 30px;
+    margin: auto;
+}
+.handleofneeds h2
+{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 64px;
+    padding-left: -1px;
+}
+.handleofneeds p
+{
+    padding-top: 40.6px;
+    padding-bottom: 51px;
+    padding-left: -13.5px;
+    
+    margin: auto;
+}
+
+.contactabout
+{
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+    /* max-width: 1700; */
+    margin: auto;
+    /* max-width: 900px; */
+}
+
+
+.contactabout #about, #contact
+{
+    /* padding-top: 20px; */
+    /* max-width: 900px; */
+    /* padding: 1em 0; */
+    padding: 35.2px;
+    padding-top: 15px;
+    
+}
+.contactabout #contact
+{
+    /* padding-bottom: 35px; */
+    max-width: 950px;
+    text-align: center;
+    /* padding-left: 4px; */
+    
+}
+#contactcol
+{
+    background-color: #2690d4;
+}
+.contactabout #about
+{
+    padding-bottom: 25px;
+    /* padding-left: 25px; */
+    /* width: 950px; */
+    /* max-width: 1300px; */
+    max-width: 1500px;
+
+    margin-bottom: 55px;
+    padding-right: -13px;
+}
+
+#contactmail
+{
+    /* padding-left: 53px; */
+    text-align: center;
+    padding-top: 1px;
+    padding-left: 2px;
+    margin-bottom: 51px;
+    
+}
+.contactabout h2
+{
+    font-size: 26.4px;
+    font-weight: bold;
+    padding-top: 67px;
+    padding-bottom: 25px;
+    
+    /* padding-left: -19px; */
+    padding-right:-7px;
+    
+}
+.contactabout p
+{
+    font-size: 17.6px;
+    padding-top: 13px;
+    margin-right: 30px;
+    text-align: center;
+    margin: auto;
+   
+}
+footer .row
+{
+   
+    background-color: black;
+    
+    /* padding-top: 40px; */
+    /* font-size: 1.1em; */
+    padding: 35px;
+    
+}
+
+footer a
+{
+text-decoration: rgb(80, 80, 255);
+}
+header a
+{
+    display: inline-block; 
+    text-decoration: none;
+    color: white;
+    height: 64px;
+    width: 160px;
+    background-color: #333333;
+    padding-top: 17px;
+    border: 1px solid gray;
+}
+
+@media only screen and (min-width:1200px) {
+    #webapp_paragraf
+    {
+    margin: auto;
+    text-align: center;
+    columns: 2;
+    max-width: 836px;
+    padding-top: 22px;
+    column-gap: 26px;
+    /* padding-left: 4px; */
+    /* padding-right: 31px; */
+    padding-bottom: 24px;
+    }
+    .handleofneeds p
+    {
+    max-width: 850px;
+    }
+    
+  }
+  @media only screen and (min-width: 900px) {
+    .card{
+        margin-left: 20px; 
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    
+    header p, .webapp p, .card p
+    {
+        padding: 0 45px 0 45px;
+    }
+    .card
+    {
+        width: 90%;
+        height: 30%;
+        /* margin: auto; */
+        margin-bottom: 30px;
+        padding-bottom: 40px;
+        
+    }
+   .cards
+   {
+    height: auto;
+    /* margin: auto; */
+   }
+   #contactmail
+   {
+    padding-bottom: 70px;
+   }
+  }
+
+  /* query for mobile L 425 */
+  @media only screen and (max-width:430px) {
+    .webapp
+    {
+        padding:0 15px 45px 15px;
+    }
+     #webapp_paragraf
+    {
+        padding: 0;
+        max-width: 384px;
+        margin: auto;
+        
+    }
+    .handleofneeds p
+    {
+        max-width: 394px;
+    }
+    .contactabout #about
+    {
+        max-width: 416px;
+        padding-bottom: 0;
+    }
+    #showcase h1
+   {
+    max-width: 350px;
+    margin: auto;
+    padding: 100px 0 0;
+    height: 205.59px;
+    width: 355.22px;
+    line-height: 40px;
+   }
+   header a
+   {
+    padding: 17.6px 35.2px;
+    margin: 8.8px 0;
+   }
+   header p
+   {
+    max-width: 369px;
+    padding: 17.6px 0;
+   }
+   .webapp h2
+   {
+    margin: auto;
+    max-width: 380px;
+    line-height: 40px;
+    padding: 26.4px 0;
+   }
+   .webapp .row
+   {
+    padding: 0;
+    max-width: 350px;
+    padding: 17.6px 0;
+    text-align: center;
+   }
+   .cards img
+   {
+    
+    margin: auto;
+   }
+   .cards
+   {
+    padding:35.2px 17.6px 17.6px;
+    height: 1720px;
+    width: 408px;
+    width: 100%;
+   }
+   .card
+   {
+    width:372.81px ;
+   }
+   .cards h3
+   {
+    margin: 0 0 8px;
+    padding: 32px 0 0;
+    
+    width: 320.03px;
+    
+   }
+   .cards p
+   {
+    max-width: 322px;
+    padding: 0;
+    padding: 17.6px 0;
+   }
+   .cards .row
+   {
+    margin: auto;
+    }
+    .handleofneeds h2
+    {
+        max-width: 274px;
+        margin: auto;
+        line-height: 40px;
+    }
+    .handleofneeds p
+    {
+        max-width: 364px;
+        margin: auto;
+        text-align: center;
+    }
+    .contactabout #contactmail
+    {
+        
+       padding: 17.6px 0;
+    }
+   
+}
+
+/* query za M 375px  */
+@media only screen and (max-width: 375px) {
+.card img
+{
+    /* width: 339.81px; */
+    height: 225.05px;
+}
+#showcase h1
+{
+    line-height: 50px;
+}
+#showcase p
+{
+    max-width: 328px;
+}
+#webapp_paragraf
+{
+    max-width: 322px;
+}
+.handleofneeds p
+{
+    max-width: 304px;
+}
+
+}
+
+/* query za S 320 */
+@media only screen and (max-width: 320px) {
+
+body
+{
+    width: 100%;
+}
+ .card img
+{
+    /* width: auto; */
+    height: 188.61px;
+}
+#showcase h1
+{ padding-top: 50px;
+    line-height: 50px;
+    max-width: 200px;
+}
+#showcase p
+{ padding-left: 5px;
+    padding-right: 5px;
+    max-width: 328px;
+    margin: 0;
+}
+.handleofneeds h2
+{
+    max-width: 250px;
+    font-size: 29px;
+}
+.handleofneeds p
+{
+    max-width: 285px;
+    font-size: 21px;
+}
+.contactabout h2
+{
+    max-width: 200px;
+    text-align: center;
+    margin: auto;
+    line-height: 40px;
+    font-size: 29px;
+}
+.contactabout #contact
+{
+    max-width: 402px;
+    padding: 0;
+    padding: 0 10px 0 10px
+}
+.contactabout #about
+{
+    max-width: 296px;
+    padding: 0;
+  
+}
+.contactabout p
+{
+    font-size: 21px;
+}
+.cards
+{
+    height: auto;
+}
+.cards h3
+{ width: 100%;
+    margin: auto;
+    font-size: 22px;
+}
+.card p
+{
+    font-size: 20px;
+    max-width: 330px;
+}
+#showcase{
+    height: auto;
+}
+}
+
+
